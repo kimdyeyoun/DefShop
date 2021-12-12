@@ -53,8 +53,8 @@ public class Utils {
 
     public static String replaceStr(String str){
         return str.replace("<","&lt")
-                .replace(">", "&gt");
+                .replace(">", "&gt")
+                .replace(".", "&#46")
+                .replace("'","&#39");
     }
-
-
 }

@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<link rel="stylesheet" href="/res/css/login.css?ver=4">
+<link rel="stylesheet" href="/res/css/login.css?ver=3">
 <div class="wrap">
     <div class="login">
         <h2>Log-in</h2>
@@ -29,7 +29,8 @@
                     <input type="checkbox" name=""> 아이디 기억하기
                 </div>
                 <div class="forgot_pw">
-                    <span>아이디/</span> <span>비밀번호</span>
+                    <span class="forgot_id">아이디/</span>
+                    <span class="forgot_pw1">비밀번호</span>
                 </div>
             </div>
             <div class="submit">
@@ -39,4 +40,30 @@
     </div>
 </div>
 
+<div id="whereId" class="modal">
+    <div id="noneAndblock">
+        <div class="center"> <input type="text" name="nm" placeholder="이름" required></div>
+        <div class="center"> <input type="text" name="phone" placeholder="번호" required></div>
+        <div class="center">
+            <span class="save"><input type="submit" value="확인"></span>
+            <span class="close"><input type="button" value="닫기"></span>
+        </div>
+    </div>
+    <div id="complet" class="complet">아이디는 gusals9355 입니다.</div>
+</div>
 
+
+
+<p><a class="btn" href="#ex7">Open Modal22222222</a></p>
+
+
+<div id="ex7" class="modal">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<script src="/res/js/login.js?ver=2"></script>

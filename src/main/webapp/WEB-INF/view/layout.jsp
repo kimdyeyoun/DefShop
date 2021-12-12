@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${requestScope.title}</title>
-    <link rel="stylesheet" href="/res/css/layout.css?var=4">
+    <link rel="stylesheet" href="/res/css/layout.css?var=3">
 </head>
 <body>
 <div class="container">
@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <div class="mainname">def shop</div>
+        <div class="mainname"><a href="/page/main">def shop</a></div>
         <div class="menu">
             <ul>
                 <li><a>dragon</a></li>
@@ -54,3 +54,4 @@
 </div>
 </body>
 </html>
+
